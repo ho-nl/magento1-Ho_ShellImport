@@ -32,12 +32,12 @@
     <global>
         <models>
             <ho_shellimport>
-                <class>Ho_ho_shellimport_Model</class>
+                <class>Ho_ShellImport_Model</class>
             </ho_shellimport>
         </models>
         <helpers>
             <ho_shellimport>
-                <class>Ho_ho_shellimport_Helper</class>
+                <class>Ho_ShellImport_Helper</class>
             </ho_shellimport>
         </helpers>
     </global>
