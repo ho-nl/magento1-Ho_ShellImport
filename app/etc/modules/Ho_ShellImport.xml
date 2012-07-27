@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>       
+	    <Ho_ShellImport>
+	        <active>true</active>
+            <codePool>local</codePool>
+	    </Ho_ShellImport>
+    </modules>
+</config>
