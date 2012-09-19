@@ -4,7 +4,10 @@ With this module it is very easy to run a profile through the shell. This method
 Dataflow profiles. This module doesn't work with the new ImportExport module.
 
 ### Usage example:
+```SHELL
+cd /path/to/magento/shell/
 php import.php -action exec -profile 1234
+```
 
 You can find the ID for the profiles:
 - `Admin Panel > Import/Export > Dataflow - Profiles`
