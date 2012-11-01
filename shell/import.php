@@ -3,7 +3,17 @@
 require_once 'abstract.php';
 
 class Ho_ShellImport_Shell_Import extends Mage_Shell_Abstract {
-	/**
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        //initialize the translations so that we are able to translate things.
+        Mage::app()->loadAreaPart(Mage_Core_Model_App_Area::AREA_ADMINHTML, Mage_Core_Model_App_Area::PART_TRANSLATE);
+    }
+
+
+    /**
 	 * Run script
 	 * 
 	 * @return void
