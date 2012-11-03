@@ -64,3 +64,9 @@ rm -rf "$SHELLDIR"../var/cache/
 
 echo Done
 ```
+
+### Help, I'm having a problem!
+1. Does the script work in the browser? No? It is a problem in the import, you should fix that first.
+2. Does your server has the right amount of memory available and has access to the shell_exec method?
+3. Take a look at the previous issues: https://github.com/ho-nl/Ho_ShellImport/issues?page=1&state=closed
+4. If that doesn't help, create an issue yourself
