@@ -1,7 +1,10 @@
-# H&O Shell Import
+# [H&O](http://www.h-o.nl) Shell Import
 
 With this module it is very easy to run a profile through the shell. This method is meant to be used to automate the
 Dataflow profiles. This module doesn't work with the new ImportExport module.
+
+Make sure you are allowed to access the shell and can run PHP there: We use [`shell_exec`](http://nl3.php.net/shell_exec)
+to import a batch (that is done using AJAX in the browser).
 
 ### Usage example:
 ```SHELL
