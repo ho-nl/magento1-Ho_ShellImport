@@ -3,8 +3,11 @@
 With this module it is very easy to run a profile through the shell. This method is meant to be used to automate the
 Dataflow profiles. This module doesn't work with the new ImportExport module.
 
-Make sure you are allowed to access the shell and can run PHP there: We use [`shell_exec`](http://nl3.php.net/shell_exec)
-to import a batch (that is done using AJAX in the browser).
+### Requirements
+- It is build om Magento, so you should have a working Magento installation ;)
+- The script is ran through the shell, so that means that you should have shell access.
+- Make sure you are allowed to access the shell through php and can run PHP there. We use [`shell_exec`](http://nl3.php.net/shell_exec)
+to import a batch (with the normal browser import, that is done using AJAX).
 
 ### Usage example:
 ```SHELL
@@ -15,7 +18,6 @@ php import.php -action exec -profile 1234
 You can find the ID for the profiles:
 - `Admin Panel > Import/Export > Dataflow - Profiles`
 - `Admin Panel > Import/Export > Dataflow - Advanced Profiles`
-
 
 #### Example automatic import script that is called by a regular cron:
 
