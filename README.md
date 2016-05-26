@@ -70,3 +70,6 @@ echo Done
 2. Does your server has the right amount of memory available and has access to the shell_exec method?
 3. Take a look at the previous issues: https://github.com/ho-nl/Ho_ShellImport/issues?page=1&state=closed
 4. If that doesn't help, create an issue yourself
+
+### About us
+We at H&O build high quality [magento webshops](https://www.h-o.nl/magento-webshops) with a focus on technique. We like sharing our knowledge and interacting with the magento community wherever in the worl they may be.
