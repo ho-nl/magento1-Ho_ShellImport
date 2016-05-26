@@ -72,4 +72,4 @@ echo Done
 4. If that doesn't help, create an issue yourself
 
 ### About us
-We at H&O build high quality [magento webshops](https://www.h-o.nl/magento-webshops) with a focus on technique. We like sharing our knowledge and interacting with the magento community wherever in the worl they may be.
+We at H&O build high quality [magento webshops](https://www.h-o.nl/magento-webshops) with a focus on technique. We like sharing our knowledge and interacting with the magento community and making e-commerce even greater.
