@@ -1,4 +1,5 @@
 # [H&O](http://www.h-o.nl) Shell Import
+Status: Deprecated
 
 With this module it is very easy to run a profile through the shell. This method is meant to be used to automate the
 Dataflow profiles. This module doesn't work with the new ImportExport module.
